@@ -154,7 +154,7 @@ function clearInput() {
 function loadDemoToken() {
     triggerHaptic(50);
     // Simulated standard real-life STS multi-stage 220-digit recharge token message
-    const demoToken = "Successful!Your BPDBprepaid Prepaid Token is 4677-0452-9798-2507-0677,1122-3344-5566-7788-9900,5544-3322-1100-9988-7766,8877-6655-4433-2211-0099,1234-5678-9012-3456-7890,9876-5432-1098-7654-3210,1111-2222-3333-4444-5555,6666-7777-8888-9999-0000,1212-3434-5656-7878-9090,0909-8787-6565-4343-2121,9999-8888-7777-6666-5555,SquNo:N/A for offline Meter No:12100880447,Vending Amt:1000.0,Enrg Cost: 957.12,Total Charge:N/A.";
+    const demoToken = "Successful!Your BPDBprepaid Prepaid Token is 4677-0452-9798-2507-0677,1122-3344-5566-7788-9900,5544-3322-1100-9988-7766,8877-6655-4433-2211-0099,1234-5678-9012-3456-7890,9876-5432-1098-7654-3210,1111-2222-3333-4444-5555,6666-7777-8888-9999-0000,1212-3434-5656-7878-9090,0909-8787-6565-4343-2121,9999-8888-7777-6666-5555,SquNo:N/A for offline Meter No:12345678910,Vending Amt:1000.0,Enrg Cost: 957.12,Total Charge:N/A.";
     document.getElementById('rawToken').value = demoToken;
     document.getElementById('splitCount').value = "20";
     document.getElementById('customDigitBlock').style.display = 'none';
