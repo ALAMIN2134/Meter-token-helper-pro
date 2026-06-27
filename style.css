@@ -1,0 +1,36 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.glow-enter {
+    animation: pulse-glow 2s infinite;
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(244, 63, 94, 0.4);
+        border-color: rgba(244, 63, 94, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(244, 63, 94, 0.8);
+        border-color: rgba(244, 63, 94, 0.9);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #475569;
+}
